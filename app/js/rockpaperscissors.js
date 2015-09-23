@@ -76,8 +76,8 @@ function playToFive() {
     var playerWins = 0;
     var computerWins = 0;
 
-    var playerMove =getPlayerMove();
-    var computerMove =getComputerMove();
+    var playerMove = getPlayerMove();
+    var computerMove = getComputerMove();
     var winner = getWinner(playerMove, computerMove);
     
     while (playerwins <5 || computerWins <5) {
